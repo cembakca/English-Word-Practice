@@ -1,0 +1,55 @@
+.pronunciation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 18px;
+  color: black;
+}
+
+svg {
+  margin-left: 10px;
+}
+
+.word {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.meaning {
+  align-self: start;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pass {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.button {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 3px;
+  outline: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  color: #292f36;
+  border: 1px solid #C1DBE3;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  transition: all .2s;
+}
+
+.button:hover {
+  border: 1px solid #292f36;
+}

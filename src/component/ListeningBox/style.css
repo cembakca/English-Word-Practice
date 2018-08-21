@@ -1,0 +1,70 @@
+.mainListening {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.soundIcon {
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 3px;
+  outline: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  color: #292f36;
+  border: 1px solid #C1DBE3;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  transition: all .2s;
+}
+
+.button:hover {
+  border: 1px solid #292f36;
+}
+
+
+.input {
+  min-width: 100px;
+  display: inline-block;
+  padding: 0 2px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #292f36;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #bdc3c7;
+  visibility: hidden;
+}
+.input.text {
+  visibility: visible;
+}
+.input:focus {
+  font-weight: bold;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.pass {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.answer {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  max-width: 70%;
+}
