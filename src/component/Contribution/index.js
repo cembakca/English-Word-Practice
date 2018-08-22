@@ -15,7 +15,7 @@ export default function About() {
         <div className="areYouReady">
           Bunu yapabilmek için repodaki <strong>constants/wordList</strong> içine gir ve yeni kelimeler ekleyebilirsin.
         </div>
-        <a href="" className="repo">Repo</a>
+        <a target='_blank' href="https://github.com/cembakca/English-Word-Practice" className="repo">Repo</a>
       </div>
     </MainBox>
   );

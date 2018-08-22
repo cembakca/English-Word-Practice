@@ -49,7 +49,6 @@ class ListeningBox extends Component {
 
   getNewWord = () => {
     const index=Math.floor(Math.random() * constant.wordList.length);
-    console.log(index);
     this.setState({
       word: constant.wordList[index],
     });

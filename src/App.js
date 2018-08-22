@@ -8,6 +8,7 @@ import scoreReducer from './reducers/scoreReducer';
 import WordBox from './component/WordBox';
 import ListeningBox from './component/ListeningBox';
 import About from './component/About';
+import Contribution from './component/Contribution';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path="/" component={About} />
           <Route path="/words" component={WordBox} />
           <Route path="/listening" component={ListeningBox} />
+          <Route path="/contribution" component={Contribution} />
         </div>
         </Router>
       </Provider>

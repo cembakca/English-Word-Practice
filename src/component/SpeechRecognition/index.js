@@ -45,12 +45,10 @@ class SpeechRecognition extends Component {
     } else {
       recognition.stop();
       recognition.onend = () => {
-        console.log("Stopped listening per click")
       }
     }
 
     recognition.onstart = () => {
-      console.log("Listening!")
     }
 
     recognition.onresult = event => {
